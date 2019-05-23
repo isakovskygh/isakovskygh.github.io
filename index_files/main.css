@@ -1,0 +1,16 @@
+@ -0,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+/*打字*/
+#content.typing_content{background:#FFF; overflow:hidden; padding:10px 20px 0px 20px; border-radius:5px; margin-bottom:10px;}
+#content.typing_content .start_ts{font-weight:normal; color:#c03d21; font-size:12px; font-family:"微软雅黑","黑体"; height:20px; line-height:20px; padding:0px 0px 10px 24px;}
+#content .typing{margin-bottom:10px; font-size:14px; background:#f9f6f2; padding:5px 10px; position:relative; border-radius:5px;}
+#content .typing input,#content .typing .text{width:930px; background:#FFF; margin-bottom:5px; border:1px solid #CCC; padding:5px 2px; font-size:24px; color:#999; font-weight:bold; font-family:"宋体"; white-space:nowrap;}
+#content .typing .text{background:#f9f6f2; border:1px solid #f9f6f2;}
+#content div.typing_on{ background:#faeede; box-shadow:0px 0px 10px #efe2d0,0px 0px 10px #efe2d0;}
+#content div.typing_on .text{ background:#faeede; border:1px solid #faeede; color:#333;}
+#content div.typing_on input{border:1px solid #c9a87c; color:#333;}
+#content .typing.zoom_font,#content .typing.zoom_font input,#content .typing.zoom_font .text{font-size:18px;}
+#content .typing div .green{color:#090;}
+#content .typing div .yellow{color:#960;}
+#content .typing div .red{color:#FFF; background:#F33;}
